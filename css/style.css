@@ -7,9 +7,7 @@
 }
 
 body {
- font-family:Georgia, 'Times New Roman', Times, serif;
- 
- 
+ font-family:Georgia, 'Times New Roman', Times, serif; 
 
 }
 .descuentos {
@@ -25,6 +23,8 @@ body {
     height: 122px;
     top: 60px;
     background: #00669F;
+    position: sticky;
+    
     }
 
 .parrafo-descuento {
@@ -41,14 +41,14 @@ h1 {
 }
 .primera {
     border-radius: 30px 30px 0px 0px;
-    position: absolute;
+    position: relative;
     width: 605px;
-    height: 680px;
-    left: 626px;
-    top: 269px;
+    margin-left: auto;
+    margin-right: auto;
+    top: 149px;
     background: #F3F3F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    display: block;
+   
 }
 .fondo-batman { 
     width: 605px;
@@ -80,9 +80,7 @@ h1 {
     background-position: center;
     margin-left: auto;
     margin-right: auto;
-    bottom: 120px;
-    z-index: 5;   
-
+    bottom: 120px;   
 }
 .nombre-parrafo {
    position: relative;   
@@ -120,11 +118,12 @@ button {
 
 .segundo {
     border-radius: 30px 30px 0px 0px;
-    position: absolute;
+    position: relative;
     width: 605px;
     height: 680px;
-    left: 626px;
-    top: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    top: 200px;
     background: #F3F3F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     display: block;
@@ -154,11 +153,12 @@ button {
 /*Aqui termina el segundo articulo*/
 .tercero {
     border-radius: 30px 30px 0px 0px;
-    position: absolute;
+    position: relative;
     width: 605px;
     height: 680px;
-    left: 626px;
-    top: 1730px;
+    top: 250px;
+    margin-left: auto;
+    margin-right: auto;
     background: #F3F3F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     display: block;
@@ -189,7 +189,7 @@ button {
     position: relative;
     height: 60px;
     background-color: #00669F;
-    top: 2400px;
+    top: 300px;
    padding-top: 15px;
     
 }
@@ -203,7 +203,7 @@ button {
 .logo-footter {
     width: 130px;
     position: relative;
-    top: 2348px;
+    top: 250px;
     margin-left: 1300px;   
 
 }
@@ -213,7 +213,6 @@ button {
     position: fixed; 
     left: 1300px;
     bottom: 60px;   
-
 
 }
 
